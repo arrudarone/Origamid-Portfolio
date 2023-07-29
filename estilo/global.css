@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+    color: #141414;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto; /*mantem a razão da imagem , até quando for definido tamanho no html*/
+}
+.subtitulo{
+    
+    font-size: 8rem;
+    word-break: break-all;
+    line-height: 1;
+    text-transform: uppercase;
+    max-width: 4ch;
+
+
+}
+@media (max-width: 800px){
+    .subtitulo{
+        font-size: 3rem;
+        text-transform: capitalize;
+        max-width: initial !important; /*Vai ser importante, sempre vai escrever por cima*/
+    }
+}
