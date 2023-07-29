@@ -20,11 +20,12 @@
     display: block;
     width: 130px;
     height: 100px;
-    background: url(portfolio-origamid/img-port/0705-introducao/portfolio/img/detalhe.svg);
+    background: url(../img-port/0705-introducao/portfolio/img/detalhe.svg);
     position: absolute;
     top: -10px ;
     left: -40px;
     z-index: -1;
+
 
 }
 .introducao p {

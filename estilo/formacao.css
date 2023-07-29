@@ -7,6 +7,7 @@
     background-color: #141414;
     color: white;
 }
+
 .formacao-container{
     max-width: 1200px;
     padding: 40px 20px;
@@ -96,12 +97,13 @@
     position: absolute;
     left: -36px;
     
+    
 }
 .cursos h3::before{
-    background: url(portfolio-origamid/cursos.svg) no-repeat center center;
+    background: url(../img-port/0708-formacao-html/portfolio/img/cursos.svg) no-repeat center center;
 }
 .idiomas h3::before{
-    background: url(portfolio-origamid/idiomas.svg) no-repeat center center;
+    background: url(../img-port/0708-formacao-html/portfolio/img/idiomas.svg) no-repeat center center;
 }
 
 .formacao-extra li {
@@ -133,7 +135,7 @@
     display: block;
     width: 130px;
     height: 100px;
-    background: url(portfolio-origamid/detalhe.svg);
+    background: url(../img-port/0708-formacao-html/portfolio/img/detalhe.svg);
     position: absolute;
     bottom: -50px;
     left: 20px;
